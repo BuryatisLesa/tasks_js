@@ -1,0 +1,11 @@
+.container-auth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.auth-form {
+  width: 50%;
+}

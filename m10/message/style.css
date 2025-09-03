@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-messages {
+    display: inline-flex;
+    flex-direction: column;
+    border: 3px solid #4CAF50;
+    width: 50%;
+    min-height: 200px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+
+form > input {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+/* Кнопка */
+form > button {
+  padding: 10px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  background: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.container-messages > p {
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+#userMessage {
+  align-self: end;
+  padding: 10px;
+  background-color: aqua;
+  margin-right: 3px;
+}
+
+#serverMessage {
+  align-self: start;
+  padding: 10px;
+  background-color: #4CAF50;
+}
+
+#geoLoc {
+  align-self: end;
+  padding: 10px;
+  background-color: aqua;
+  margin-right: 3px;
+  border-radius: 20px;
+}
